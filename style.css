@@ -44,8 +44,13 @@ img {
 }
 
 h1 {
+    font-weight: bolder;
     color: white;
     margin-left:5px;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 .first-p{
@@ -71,6 +76,7 @@ h1 {
 }
 
 .second-icon {
+    font-weight: bolder;
     display: flex;
     align-items: center;
     color: hsl(215, 51%, 70%);
@@ -115,8 +121,11 @@ h1 {
     margin-right: 10px;
 }
 span {
-    color: white;
-    
+    color: white; 
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
 }
 
 @media (max-width: 375) {
